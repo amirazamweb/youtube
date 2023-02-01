@@ -190,6 +190,10 @@ iframe {
         display: none;
     }
 
+    #sugestion {
+        display: none;
+    }
+
     #container {
         grid-template-columns: repeat(1, 1fr);
     }
