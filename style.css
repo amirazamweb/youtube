@@ -159,7 +159,7 @@ iframe {
 
 /* meida query */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
     #header-1 {
         width: 20%;
     }
