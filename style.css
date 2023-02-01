@@ -161,7 +161,11 @@ iframe {
 
 @media screen and (max-width: 400px) {
     #header-1 {
-        width: 10%;
+        width: 20%;
+    }
+
+    #header-1 img {
+        width: 100%;
     }
 
     #header-1 .fa-bars {
@@ -169,7 +173,17 @@ iframe {
     }
 
     #header-2 {
-        width: 90%;
+        width: 80%;
+    }
+
+    #header-2 input {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    #header-2 .fa-magnifying-glass {
+        padding: 0.6rem 1.1rem;
+        font-size: 0.8rem;
     }
 
     #header-3 {
