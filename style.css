@@ -165,7 +165,7 @@ iframe {
     }
 
     #header-1 img {
-        width: 100%;
+        width: 110%;
     }
 
     #header-1 .fa-bars {
@@ -196,6 +196,10 @@ iframe {
 
     #container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    hr {
+        margin-bottom: 1rem;
     }
 
 }
