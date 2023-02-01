@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: rgb(170, 169, 169);
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    width: 10px;
+
+}
+
+/* header */
+
+#header {
+    margin: 0.8rem 1rem;
+    display: flex;
+    box-sizing: border-box;
+}
+
+#header-1 {
+    width: 12%;
+    display: flex;
+    align-items: center;
+
+}
+
+#header-1 .fa-solid {
+    width: 20%;
+    display: inline-block;
+}
+
+#header-1 img {
+    width: 80%;
+    display: inline-block;
+    margin-left: 0;
+}
+
+#header-2 {
+    width: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-2 input {
+    width: 45%;
+    padding: 0.6rem 1rem;
+    border-bottom-left-radius: 1.2rem;
+    border-top-left-radius: 1.2rem;
+    border: 1px solid #bdc3c7;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+#header-2 input:focus {
+    outline: none;
+    border-color: #2c3e50;
+}
+
+#header-2 .fa-magnifying-glass {
+    padding: 0.6rem 1.1rem;
+    font-size: 1.1rem;
+    color: #606060;
+    border-top-right-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    border: 1px solid #bdc3c7;
+    border-left: 0;
+}
+
+#header-2 .fa-magnifying-glass:hover {
+    cursor: pointer;
+    background-color: #e7ecee;
+}
+
+#header-2 .fa-microphone {
+    margin-left: 1.3rem;
+    font-size: 1.2rem;
+}
+
+#header-3 {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+/* suggested search */
+
+#sugestion {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+#sugestion div {
+    padding: 0.5rem 0.7rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: #ecf0f1;
+}
+
+#sugestion div:hover {
+    cursor: pointer;
+    background-color: #dfe1e2;
+}
+
+/* container */
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    gap: 1.5rem;
+    padding: 0 0.8rem;
+    box-sizing: border-box;
+}
+
+#container div {
+    background-color: rgb(245, 240, 240);
+    align-items: center;
+}
+
+#container div:hover {
+    transform: scale(1.02);
+    transition: all 1s;
+}
+
+iframe {
+    width: 100%;
+    height: 170px;
+    border-style: none;
+}
+
+#container #title {
+    color: #0F0F0F;
+    font-size: 14px;
+    margin: 7px;
+}
+
+#container #channel {
+    color: #606060;
+    font-size: 12px;
+    margin: 7px;
+}
+
+/* meida query */
+
+@media screen and (max-width: 400px) {
+    #header-1 {
+        width: 10%;
+    }
+
+    #header-1 .fa-bars {
+        display: none;
+    }
+
+    #header-2 {
+        width: 90%;
+    }
+
+    #header-3 {
+        display: none;
+    }
+
+    #container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
